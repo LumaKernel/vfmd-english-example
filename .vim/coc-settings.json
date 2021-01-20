@@ -1,0 +1,9 @@
+{
+  "languageserver": {
+    "vfmd": {
+      "filetypes": ["*"],
+      "command": "npx",
+      "args": ["vfmd", "lsp", "--stdio"]
+    }
+  }
+}

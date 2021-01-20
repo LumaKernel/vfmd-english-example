@@ -1,0 +1,46 @@
+{
+  "name": "vfmd-english-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "nodemon -w ./scripts/watch.js ./scripts/watch.js"
+  },
+  "keywords": [],
+  "author": "Luma",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/nodemon": "^1.19.0",
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "chokidar": "^3.5.1",
+    "dictionary-en-gb": "^2.3.0",
+    "retext": "^7.0.1",
+    "retext-assuming": "^1.0.0",
+    "retext-cliches": "^1.0.0",
+    "retext-contractions": "^4.0.0",
+    "retext-diacritics": "^3.0.0",
+    "retext-emoji": "^7.0.2",
+    "retext-english": "^3.0.4",
+    "retext-equality": "^5.6.0",
+    "retext-indefinite-article": "^2.0.1",
+    "retext-intensify": "^5.0.0",
+    "retext-overuse": "^1.1.1",
+    "retext-passive": "^3.0.0",
+    "retext-profanities": "^6.1.0",
+    "retext-quotes": "^4.0.0",
+    "retext-readability": "^6.0.0",
+    "retext-redundant-acronyms": "^3.0.0",
+    "retext-repeated-words": "^3.0.0",
+    "retext-sentence-spacing": "^4.0.0",
+    "retext-sentiment": "^5.0.1",
+    "retext-simplify": "^6.0.0",
+    "retext-spell": "^4.0.0",
+    "retext-syntax-mentions": "^2.1.1",
+    "to-vfile": "^6.1.0",
+    "vfile-reporter-pretty": "^5.0.0",
+    "vfmd": "^1.0.4"
+  }
+}
